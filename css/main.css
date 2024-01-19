@@ -1,0 +1,142 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: 'CircularStd';
+  padding: 0.5rem;
+  background-color: antiquewhite;
+}
+
+section{
+  margin: 1rem 4% 3%;
+}
+
+
+.Circular{
+  font-family: 'CircularStd';
+  font-size: 2rem;
+}
+
+.lora{
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+}
+
+.circular-txt{
+  font-family: 'CircularStd';
+}
+
+/* .navchild {
+  flex: 1.5;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  align-items: center;
+} */
+
+
+
+h1{
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+}
+
+
+
+h5{
+  margin: 0 10px;
+}
+
+.description-text {
+  font-size: 0.75rem;
+  font-family: 'CircularStd';
+	font-style: light;
+}
+
+img {
+	height: auto; 
+	max-width: 100%;
+	border: 1px solid black; 
+}
+
+figure {
+	margin: 0;
+}
+
+figcaption {
+  font-size: 0.75rem;
+  font-family: 'Duplicate-Sans';
+	font-style: italic;
+}
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: rgb(143,168,245);
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #999;
+}
+
+a {
+	color: rgb(245,165,130); 
+	transition: color 0.5s;
+}
+
+a:active, a:hover, a:focus {
+	color: rgb(50,0,0); 
+	text-decoration: none;
+}
+
+img:hover, img:focus, img:active{
+  opacity: 75%;
+  transition: opacity 0.25s ease-out;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+input:hover, input:active{
+  background-color: rgb(143,168,245);
+  opacity: 75%;
+  color: white;
+}
+
+textarea:hover, input:active{
+  background-color: rgb(143,168,245);
+  opacity: 75%;
+  color: white;
+}
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+.nav-main-item {
+	display: inline-block;
+	color: white;
+	background-color: rgb(42,107,65);
+	font-size: 1.5rem;
+	padding: 0.25rem 0.5rem;
+	text-decoration: none;
+	transition: background-color 0.5s ease-out;
+  margin: 2px;
+}
+
+.nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
+	color: white;
+	background-color: rgb(50,50,50);
+}
+
