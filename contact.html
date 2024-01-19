@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>About</title>
+
+       
+       
+        <link href="./css/main.css" rel="stylesheet">
+        <link href="./css/fonts.css" rel="stylesheet">
+        <link href="./css/normalize.css" rel="stylesheet">
+        <link href="./css/nav.css" rel="stylesheet">
+        <link href="./css/about.css" rel="stylesheet">
+        <link href="css/flexbox.css" rel="stylesheet">
+
+        
+    </head>
+
+    <body>
+        <header>
+            <h1 class="navtitle"><a href="index.html">kirstenwong.</a></h1>
+            <nav class="navchild">
+                <ul class="nav_links"> 
+                    <li> <a href="about.html">About</a></li>
+                    <li> <a href="index.html">Projects</a> </li>
+                </ul>
+                
+            </nav>
+            <a class="cta" href="contact.html"><button> Contact</button></a>
+        </header>
+
+        <section> 
+            <div class="container_form"> <!-- HTML code referenced from W3Schools "How TO - Responsive Form" https://www.w3schools.com/howto/howto_css_responsive_form.asp -->
+                <h1>Contact</h1>
+                <form>
+                    <legend>Get in touch with us about any inquiries, questions, or concerns.</legend>
+                    <br>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="finame">First Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="finame" name="firstname">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="laname">Last Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="laname" name="lastname">
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="emailad">Email</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="emailad" name="email">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="msg">Message</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="msg" name="message" style="height: 200px;"></textarea>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <input class= "buttonmain" type="submit" value="Submit Message">
+                      </div>
+
+                </form>
+            </div>
+        </section>
+
+    </body>
+    
+
+    </html>
